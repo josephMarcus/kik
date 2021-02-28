@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/items.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.transform2d.js"></script>
+    <script src="js/jquery.transform3d.js"></script>
+    <script defer src="js/item.js"></script>
+    
+</head>
+<body>
+    <div class="loader">
+        <img src="img/load2.gif" id="loader" alt="">
+    </div>
+    <div id="all" style="display: none;">
+
+        <!--   shopping card icon-->
+        <input type="submit" value="0" id="shop_counter">
+        <img src="img/shop.png" id="shop_icon" alt="">
+
+        <div class="shop_div">
+            <table class="shop">
+                <tr>
+                <th>name</th>
+                <th>price</th>
+                <th>units</th>
+                <th>delete</th>
+            </tr>
+                <tr>
+                    <td>dell i7</td>
+                    <td>13000</td>
+                    <td>1</td>
+                    <td><input type="submit" value="Del"></td>
+                </tr>
+                <tr>
+                    <td>dell i7</td>
+                    <td>13000</td>
+                    <td>1</td>
+                    <td><input type="submit" value="Del"></td>
+                </tr>
+                <tr>
+                    <td>dell i7</td>
+                    <td>13000</td>
+                    <td>1</td>
+                    <td><input type="submit" value="Del"></td>
+                </tr>
+                <tr>
+                    <td>dell i7</td>
+                    <td>13000</td>
+                    <td>1</td>
+                    <td><input type="submit" value="Del"></td>
+                </tr>
+            </table>
+        </div>
+
+
+
+        <!--   shopping card icon-->
+<div class="parent_big_image"></div>
+  <img src="" id="big_image" alt="">
+
+
+
+
+
+    <img src="images/menu.png" id="menu" alt="">
+<!--  start of header   -->
+<div class="header">
+    <img src="images/albert.jpg"  alt="logo">
+    <ul>
+        <li> <a href="index.html">Home </a> </li>
+        <li> <a href="items.html">Items </a> </li>
+        <li> <a href="contact.html">Contact Us </a> </li>
+        <li> <a href="login.html">Login </a> </li>
+        <li> <a href="signup.html">Signup </a> </li>
+        
+    </ul>
+    </div>
+    <!-- end of header -->
+    
+<!-- search -->
+<div class="search">
+    <input type="search" placeholder="Search here..">
+    <button>Search</button>
+</div>
+<!-- search -->
+
+<!-- items parent div-->
+<div class="parent_items">
+
+<!-- start of item part--> 
+    <div class="item_part">
+        <button id="add">Git it</button>
+        <img class="select" onclick="zoom_item(this)" src="images/albert_einstein.jpeg" alt="">
+        <p id="price">price EGP.500</p>
+        <p id="name">Item Name</p>
+        <p id="desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius exercitationem commodi corporis iure officiis doloribus ad tempore debitis repudiandae delectus, est velit rem culpa, accusantium laboriosam minus! Quas, eligendi perferendis?
+        </p>
+        <a href="item_detail.html">More</a>
+        
+    </div>
+<!-- end of item part-->
+
+
+<!-- start of item part-->
+<div class="item_part">
+
+    <img class="select" onclick="zoom_item(this)" src="images/albert2.jpg" alt="">
+    <p id="price">price EGP.500</p>
+    <p id="name">Item Name</p>
+    <p id="desc">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius exercitationem commodi corporis iure officiis doloribus ad tempore debitis repudiandae delectus, est velit rem culpa, accusantium laboriosam minus! Quas, eligendi perferendis?
+    </p>
+    <a href="item_detail.html">More</a>
+</div>
+<!-- end of item part-->
+
+
+
+<!-- start of item part-->
+<div class="item_part">
+  
+    <img class="select" onclick="zoom_item(this)" src="images/albert2.jpg" alt="">
+    <p id="price">price EGP.500</p>
+    <p id="name">Item Name</p>
+    <p id="desc">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius exercitationem commodi corporis iure officiis doloribus ad tempore debitis repudiandae delectus, est velit rem culpa, accusantium laboriosam minus! Quas, eligendi perferendis?
+    </p>
+    <a href="item_detail.html">More</a>
+</div>
+<!-- end of item part-->
+
+
+<!-- start of item part-->
+<div class="item_part">
+   
+    <img class="select" onclick="zoom_item(this)" src="images/albert2.jpg" alt="">
+    <p id="price">price EGP.500</p>
+    <p id="name">Item Name</p>
+    <p id="desc">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius exercitationem commodi corporis iure officiis doloribus ad tempore debitis repudiandae delectus, est velit rem culpa, accusantium laboriosam minus! Quas, eligendi perferendis?
+    </p>
+    <a href="item_detail.html">More</a>
+</div>
+<!-- end of item part-->
+
+
+
+<!-- start of item part-->
+<div class="item_part">
+    
+    <img class="select" onclick="zoom_item(this)" src="images/albert2.jpg" alt="">
+    <p id="price">price EGP.500</p>
+    <p id="name">Item Name</p>
+    <p id="desc">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius exercitationem commodi corporis iure officiis doloribus ad tempore debitis repudiandae delectus, est velit rem culpa, accusantium laboriosam minus! Quas, eligendi perferendis?
+    </p>
+    <a href="item_detail.html">More</a>
+</div>
+<!-- end of item part-->
+
+
+
+</div>
+
+
+  
+<div class="footer">
+    <p>All Rights &copy; Jet 2020 </p>
+</div>
+
+
+</div>
+</body>
+</html>
